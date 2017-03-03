@@ -299,10 +299,19 @@
   width: 3000px; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  overflow: hidden; }
 
 div.graph-container {
-  position: relative; }
+  position: relative;
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  overflow: scroll;
+  margin: 10px; }
   div.graph-container .graph-slider {
     position: absolute;
     left: 0px; }
@@ -310,7 +319,7 @@ div.graph-container {
       width: 100%; }
       div.graph-container .graph-slider .graph-header .title {
         display: inline-block;
-        padding: 5px 10px;
+        padding: 10px 0px;
         background: #999;
         text-align: center; }
         div.graph-container .graph-slider .graph-header .title h2 {
@@ -318,5 +327,10 @@ div.graph-container {
     div.graph-container .graph-slider .graph-body .track .track-item {
       display: inline-block;
       background: #ccc;
-      border-left: 1px dashed #eee;
-      border-right: 1px dashed #eee; }
+      height: 100px;
+      vertical-align: middle;
+      border-left: 1px dashed #eee; }
+      div.graph-container .graph-slider .graph-body .track .track-item.spacer {
+        background: none; }
+      div.graph-container .graph-slider .graph-body .track .track-item.break {
+        margin-right: -4px; }

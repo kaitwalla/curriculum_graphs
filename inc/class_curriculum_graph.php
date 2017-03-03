@@ -26,8 +26,7 @@ require_once('env.php');
 		// Building functions
 		public function build_break($break_name) {
 			$break = $this->breaks->{$break_name};
-			?>
-				<div data-name="<?php print $break->name; ?>" class="track-item break units-<?php print $break->location->units; ?>">
+			?><div data-name="<?php print $break->name; ?>" class="track-item break units-<?php print $break->location->units; ?>">
 					<h3><?php print $break->abbreviation; ?></h3>
 					<p><?php print $break->name; ?></p>
 				</div>
