@@ -1,0 +1,42 @@
+$gray: #999;
+$unit: 30px;
+
+@for $i from 1 through 100 {
+ 	.units-#{$i} {
+    	width: $unit * $i
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div.graph-container {
+	position: relative;
+	.graph-slider {
+		position: absolute;
+		left: 0px;
+		.graph-header {
+			width: 100%;
+			.title {
+				display: inline-block;
+				padding: 5px 10px;
+				background: $gray;
+				text-align: center;
+				h2 {
+					font-size: 18px;
+				}
+			}
+		}	
+		.graph-body {
+			.track {
+				.track-item {
+					display: inline-block;
+					background: #ccc;
+					border-left: 1px dashed #eee;
+					border-right: 1px dashed #eee;
+				}
+			}
+		}
+	}
+}
