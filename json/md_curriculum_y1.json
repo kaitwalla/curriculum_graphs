@@ -1,0 +1,101 @@
+{
+	"title" : "",
+	"date_sections" : {
+		"number" : 12,
+		"units_per_section" : 4,
+		"titles" : [
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December",
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June"
+		],
+		"spacer_before" : 2
+	},
+	"vertical_breaks" : [
+		{
+			"name" : "Profession of Medicine I",
+			"abbreviation" : "PoM I",
+			"location" : [
+				{
+					"month" : "July", 
+					"units" : [3,4]
+				}
+			]
+		},
+		{
+			"name" : "Thanksgiving Break",
+			"abbreviation" : "Break",
+			"location" : [
+				{
+					"month" : "November", 
+					"units" : [3]
+				}
+			]	
+		},
+		{
+			"name" : "Winter Break",
+			"abbreviation" : "Break",
+			"location" : [
+				{
+					"month" : "December", 
+					"units" : [4]
+				},
+				{
+					"month" : "January", 
+					"units" : [1,2]
+				},
+			]	
+		},
+		{
+			"name" : "Reflect/Assess",
+			"abbreviation" : "Reflect",
+			"location" : [
+				{
+					"month" : "May", 
+					"units" : [4]
+				},
+				{
+					"month" : "June", 
+					"units" : [1]
+				},
+			]	
+		}
+	],
+	"tracks" : [
+		[
+			{
+				"name" : "Scientific Principles of Medicine",
+				"abbreviation" : "SPM",
+				"val" : 12,
+			},
+			{
+				"name" : "Musco-skeletal System & Anatomy",
+				"abbreviation" : "MSK",
+				"val" : 6
+			},
+			{
+				"name" : "HEM",
+				"abbreviation" : "HEM",
+				"val" : 7
+			},
+			{
+				"name" : "Cardiorespiratory & Anatomy",
+				"abbreviation" : "Cardio & Anat",
+				"val" : 12
+			},
+			{
+				"name" : "Renal",
+				"abbreviation" : "Renal",
+				"val" : 4
+			}
+		],
+	]
+}
