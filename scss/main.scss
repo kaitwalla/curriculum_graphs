@@ -1,10 +1,21 @@
+@import 'definitions';
+
 $gray: #999;
 $unit: 30px;
 
 @for $i from 1 through 100 {
  	.units-#{$i} {
-    	width: $unit * $i
+    	width: ($unit * $i) + $i;
 	}
+}
+
+
+@mixin set_color($num) {
+	@extend %color#{$num};
+}
+
+@mixin set_color_alt($num) {
+	@extend %colorblind#{$num};
 }
 
 * {
@@ -23,16 +34,19 @@ div.graph-container {
 	height: calc(100vh - 20px);
 	overflow: scroll;
 	margin: 10px;
+	font-family: 'Helvetica',sans-serif;
 	.graph-slider {
 		position: absolute;
 		left: 0px;
 		.graph-header {
-			width: 100%;
+			width: calc(100% + 12px);
 			.title {
 				display: inline-block;
 				padding: 10px 0px;
-				background: $gray;
+				background: black;
+				color: white;
 				text-align: center;
+				margin-right: 1px;
 				h2 {
 					font-size: 18px;
 				}
@@ -45,12 +59,71 @@ div.graph-container {
 					background: #ccc;
 					height: 100px;
 					vertical-align: middle;
-					border-left: 1px dashed #eee;
+					position: relative;
+					text-decoration: none;
+					color: white;
+					transition: transform 0.5s;
+					z-index: 3;
+					@for $i from 1 through 20 {
+						&.color-#{$i} {
+							@include set_color($i);
+							&.alt {
+								@include set_color_alt($i);
+							}
+						}
+					}
+					&:not(.break):hover {
+						transform: scale(1.02);
+						z-index: 3;
+						transition: transform 0.5s;
+					}
 					&.spacer {
 						background: none;
 					}
 					&.break {
-						margin-right: -4px;
+						margin-right: -5px;
+						position: relative;
+						z-index: 2;
+						h3 {
+							opacity: 0;
+							transition: opacity 0.5s;
+						}
+					}
+					h3 {
+						position: absolute;
+						text-align: center;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+					}
+					&.shown {
+						h3 {
+							transition: opacity 0.5s;
+							opacity: 1; 
+						}
+					}
+					&.rotated {
+						h3 {
+							transform: translate(-50%,-50%) rotate(-90deg) !important;
+						}
+					}
+					&.vertical-center {
+						h3 {
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%,-50%);
+						}
+					}
+					&.vertical-topline {
+						h3 {
+							top: 0;
+							left: 50%;
+							transform: translate(-50%,-50%);	
+						}
+					}
+					p {
+						display: none;
 					}
 				}
 			}

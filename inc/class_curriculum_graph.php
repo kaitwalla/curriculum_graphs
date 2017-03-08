@@ -26,10 +26,12 @@ require_once('env.php');
 		// Building functions
 		public function build_break($break_name) {
 			$break = $this->breaks->{$break_name};
-			?><div data-name="<?php print $break->name; ?>" class="track-item break units-<?php print $break->location->units; ?>">
+			$slug = preg_replace("/(\W)+/","",$break_name);
+			$color = isset($break->color) ? ' color-'.$break->color : '';
+			$href = isset($break->href) ? ' href="'.$break->href.'"' : '';
+			?><a <?php print $href; ?>data-break="<?php print $slug; ?>" class="rotated track-item break units-<?php print $break->location->units; print $color; ?>">
 					<h3><?php print $break->abbreviation; ?></h3>
-					<p><?php print $break->name; ?></p>
-				</div>
+				</a>
 			<?php
 			$this->current_position = $this->current_position + $break->location->units;
 		}
@@ -39,7 +41,8 @@ require_once('env.php');
 			$this->json = json_decode($this->file);
 			$this->setup_breaks();
 			?>
-				<div class="graph-container">
+				<h2 class="graph-header"><?php print $this->json->title; ?></h2>
+				<div class="graph-container" id="<?php print preg_replace("/(\W)+/","",$this->results['file_url']); ?>">
 					<div class="graph-slider units-<?php print count($this->json->date_sections->titles) * $this->json->date_sections->units_per_section; ?>">
 						<div class="graph-header">
 							<?php $this->build_headers(); ?>
@@ -69,16 +72,17 @@ require_once('env.php');
 				if (isset($this->json->date_sections->spacer_before) && $this->json->date_sections->spacer_before !== 0) {
 					$starting_position = $this->json->date_sections->spacer_before;
 					?>
-					<div class="track-item spacer units-<?php print $this->json->date_sections->spacer_before; ?>"></div>
+					<a class="track-item spacer units-<?php print $this->json->date_sections->spacer_before; ?>"></a>
 					<?php
 				}
 				$this->current_position = $starting_position;
 				foreach ($track as $idx=>$track_item) {
 					$this->check_for_breaks();
-					?><div class="track-item units-<?php print $track_item->units; ?>">
+					$color = isset($track_item->color) ? ' color-'.$track_item->color : '';
+					$href = isset($track_item->href) ? ' href="'.$track_item->href.'"' : '';
+					?><a <?php print $href; ?>class="track-item units-<?php print $track_item->units; print $color; ?>">
 						<h3><?php print $track_item->abbreviation; ?></h3>
-						<p><?php print $track_item->name; ?></p>
-					</div><?php
+					</a><?php
 					$this->current_position = $this->current_position + $track_item->units;
 				}
 				$this->check_for_breaks(); ?>

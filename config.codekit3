@@ -15,10 +15,34 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/images\/50.gif": {
+		"ft": 4194304,
+		"iS": 38293,
+		"oA": 0,
+		"oAP": "\/images\/50.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/class_curriculum_graph.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/class_curriculum_graph.php",
+		"oF": 0
+		},
+	"\/inc\/class_management.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/class_management.php",
 		"oF": 0
 		},
 	"\/inc\/env.php": {
@@ -33,6 +57,24 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/json\/.placeholder": {
 		"ft": 8192,
 		"oA": 2,
@@ -43,6 +85,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/json\/md_curriculum_y1-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/json\/md_curriculum_y2.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/json\/md_curriculum_y2-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -65,6 +115,32 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/scss\/_definitions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_definitions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/backend.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/backend.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -77,6 +153,12 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/viewer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/viewer.php",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1715,7 +1797,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"varstmt": {

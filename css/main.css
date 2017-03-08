@@ -1,302 +1,422 @@
+div.graph-container .graph-slider .graph-body .track .track-item.color-1 {
+  background: #1F77B4; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-2 {
+  background: #AEC7EB; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-3 {
+  background: #FF7F0E; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-4 {
+  background: #FFBB78; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-5 {
+  background: #2CA02C; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-6 {
+  background: #98DF8A; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-7 {
+  background: #D62728; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-8 {
+  background: #FF9896; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-9 {
+  background: #9467BD; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-10 {
+  background: #C5B0D5; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-11 {
+  background: #8C564B; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-12 {
+  background: #C49C94; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-13 {
+  background: #E777C2; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-14 {
+  background: #F7B6D2; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-15 {
+  background: #7F7F7F; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-16 {
+  background: #C7C7C7; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-17 {
+  background: #BCBD22; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-18 {
+  background: #DBDB8D; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-19 {
+  background: #17BECF; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-20 {
+  background: #9EDAE5; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-1.alt {
+  background: #FDE641; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-2.alt {
+  background: #DCE238; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-3.alt {
+  background: #B8DC3E; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-4.alt {
+  background: #95D64D; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-5.alt {
+  background: #77CE5D; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-6.alt {
+  background: #59C46B; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-7.alt {
+  background: #41BA78; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-8.alt {
+  background: #30AD80; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-9.alt {
+  background: #28A286; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-10.alt {
+  background: #26968A; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-11.alt {
+  background: #28898C; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-12.alt {
+  background: #2B7D8C; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-13.alt {
+  background: #30718C; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-14.alt {
+  background: #34658C; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-15.alt {
+  background: #3B568A; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-16.alt {
+  background: #404986; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-17.alt {
+  background: #46397F; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-18.alt {
+  background: #482A76; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-19.alt {
+  background: #481A67; }
+
+div.graph-container .graph-slider .graph-body .track .track-item.color-20.alt {
+  background: #441153; }
+
 .units-1 {
-  width: 30px; }
+  width: 31px; }
 
 .units-2 {
-  width: 60px; }
+  width: 62px; }
 
 .units-3 {
-  width: 90px; }
+  width: 93px; }
 
 .units-4 {
-  width: 120px; }
+  width: 124px; }
 
 .units-5 {
-  width: 150px; }
+  width: 155px; }
 
 .units-6 {
-  width: 180px; }
+  width: 186px; }
 
 .units-7 {
-  width: 210px; }
+  width: 217px; }
 
 .units-8 {
-  width: 240px; }
+  width: 248px; }
 
 .units-9 {
-  width: 270px; }
+  width: 279px; }
 
 .units-10 {
-  width: 300px; }
+  width: 310px; }
 
 .units-11 {
-  width: 330px; }
+  width: 341px; }
 
 .units-12 {
-  width: 360px; }
+  width: 372px; }
 
 .units-13 {
-  width: 390px; }
+  width: 403px; }
 
 .units-14 {
-  width: 420px; }
+  width: 434px; }
 
 .units-15 {
-  width: 450px; }
+  width: 465px; }
 
 .units-16 {
-  width: 480px; }
+  width: 496px; }
 
 .units-17 {
-  width: 510px; }
+  width: 527px; }
 
 .units-18 {
-  width: 540px; }
+  width: 558px; }
 
 .units-19 {
-  width: 570px; }
+  width: 589px; }
 
 .units-20 {
-  width: 600px; }
+  width: 620px; }
 
 .units-21 {
-  width: 630px; }
+  width: 651px; }
 
 .units-22 {
-  width: 660px; }
+  width: 682px; }
 
 .units-23 {
-  width: 690px; }
+  width: 713px; }
 
 .units-24 {
-  width: 720px; }
+  width: 744px; }
 
 .units-25 {
-  width: 750px; }
+  width: 775px; }
 
 .units-26 {
-  width: 780px; }
+  width: 806px; }
 
 .units-27 {
-  width: 810px; }
+  width: 837px; }
 
 .units-28 {
-  width: 840px; }
+  width: 868px; }
 
 .units-29 {
-  width: 870px; }
+  width: 899px; }
 
 .units-30 {
-  width: 900px; }
-
-.units-31 {
   width: 930px; }
 
+.units-31 {
+  width: 961px; }
+
 .units-32 {
-  width: 960px; }
+  width: 992px; }
 
 .units-33 {
-  width: 990px; }
+  width: 1023px; }
 
 .units-34 {
-  width: 1020px; }
+  width: 1054px; }
 
 .units-35 {
-  width: 1050px; }
+  width: 1085px; }
 
 .units-36 {
-  width: 1080px; }
+  width: 1116px; }
 
 .units-37 {
-  width: 1110px; }
+  width: 1147px; }
 
 .units-38 {
-  width: 1140px; }
+  width: 1178px; }
 
 .units-39 {
-  width: 1170px; }
+  width: 1209px; }
 
 .units-40 {
-  width: 1200px; }
+  width: 1240px; }
 
 .units-41 {
-  width: 1230px; }
+  width: 1271px; }
 
 .units-42 {
-  width: 1260px; }
+  width: 1302px; }
 
 .units-43 {
-  width: 1290px; }
+  width: 1333px; }
 
 .units-44 {
-  width: 1320px; }
+  width: 1364px; }
 
 .units-45 {
-  width: 1350px; }
+  width: 1395px; }
 
 .units-46 {
-  width: 1380px; }
+  width: 1426px; }
 
 .units-47 {
-  width: 1410px; }
+  width: 1457px; }
 
 .units-48 {
-  width: 1440px; }
+  width: 1488px; }
 
 .units-49 {
-  width: 1470px; }
+  width: 1519px; }
 
 .units-50 {
-  width: 1500px; }
+  width: 1550px; }
 
 .units-51 {
-  width: 1530px; }
+  width: 1581px; }
 
 .units-52 {
-  width: 1560px; }
+  width: 1612px; }
 
 .units-53 {
-  width: 1590px; }
+  width: 1643px; }
 
 .units-54 {
-  width: 1620px; }
+  width: 1674px; }
 
 .units-55 {
-  width: 1650px; }
+  width: 1705px; }
 
 .units-56 {
-  width: 1680px; }
+  width: 1736px; }
 
 .units-57 {
-  width: 1710px; }
+  width: 1767px; }
 
 .units-58 {
-  width: 1740px; }
+  width: 1798px; }
 
 .units-59 {
-  width: 1770px; }
+  width: 1829px; }
 
 .units-60 {
-  width: 1800px; }
-
-.units-61 {
-  width: 1830px; }
-
-.units-62 {
   width: 1860px; }
 
+.units-61 {
+  width: 1891px; }
+
+.units-62 {
+  width: 1922px; }
+
 .units-63 {
-  width: 1890px; }
+  width: 1953px; }
 
 .units-64 {
-  width: 1920px; }
+  width: 1984px; }
 
 .units-65 {
-  width: 1950px; }
+  width: 2015px; }
 
 .units-66 {
-  width: 1980px; }
+  width: 2046px; }
 
 .units-67 {
-  width: 2010px; }
+  width: 2077px; }
 
 .units-68 {
-  width: 2040px; }
+  width: 2108px; }
 
 .units-69 {
-  width: 2070px; }
+  width: 2139px; }
 
 .units-70 {
-  width: 2100px; }
+  width: 2170px; }
 
 .units-71 {
-  width: 2130px; }
+  width: 2201px; }
 
 .units-72 {
-  width: 2160px; }
+  width: 2232px; }
 
 .units-73 {
-  width: 2190px; }
+  width: 2263px; }
 
 .units-74 {
-  width: 2220px; }
+  width: 2294px; }
 
 .units-75 {
-  width: 2250px; }
+  width: 2325px; }
 
 .units-76 {
-  width: 2280px; }
+  width: 2356px; }
 
 .units-77 {
-  width: 2310px; }
+  width: 2387px; }
 
 .units-78 {
-  width: 2340px; }
+  width: 2418px; }
 
 .units-79 {
-  width: 2370px; }
+  width: 2449px; }
 
 .units-80 {
-  width: 2400px; }
+  width: 2480px; }
 
 .units-81 {
-  width: 2430px; }
+  width: 2511px; }
 
 .units-82 {
-  width: 2460px; }
+  width: 2542px; }
 
 .units-83 {
-  width: 2490px; }
+  width: 2573px; }
 
 .units-84 {
-  width: 2520px; }
+  width: 2604px; }
 
 .units-85 {
-  width: 2550px; }
+  width: 2635px; }
 
 .units-86 {
-  width: 2580px; }
+  width: 2666px; }
 
 .units-87 {
-  width: 2610px; }
+  width: 2697px; }
 
 .units-88 {
-  width: 2640px; }
+  width: 2728px; }
 
 .units-89 {
-  width: 2670px; }
+  width: 2759px; }
 
 .units-90 {
-  width: 2700px; }
-
-.units-91 {
-  width: 2730px; }
-
-.units-92 {
-  width: 2760px; }
-
-.units-93 {
   width: 2790px; }
 
+.units-91 {
+  width: 2821px; }
+
+.units-92 {
+  width: 2852px; }
+
+.units-93 {
+  width: 2883px; }
+
 .units-94 {
-  width: 2820px; }
+  width: 2914px; }
 
 .units-95 {
-  width: 2850px; }
+  width: 2945px; }
 
 .units-96 {
-  width: 2880px; }
+  width: 2976px; }
 
 .units-97 {
-  width: 2910px; }
+  width: 3007px; }
 
 .units-98 {
-  width: 2940px; }
+  width: 3038px; }
 
 .units-99 {
-  width: 2970px; }
+  width: 3069px; }
 
 .units-100 {
-  width: 3000px; }
+  width: 3100px; }
 
 * {
   box-sizing: border-box;
@@ -311,17 +431,20 @@ div.graph-container {
   width: calc(100vw - 20px);
   height: calc(100vh - 20px);
   overflow: scroll;
-  margin: 10px; }
+  margin: 10px;
+  font-family: 'Helvetica',sans-serif; }
   div.graph-container .graph-slider {
     position: absolute;
     left: 0px; }
     div.graph-container .graph-slider .graph-header {
-      width: 100%; }
+      width: calc(100% + 12px); }
       div.graph-container .graph-slider .graph-header .title {
         display: inline-block;
         padding: 10px 0px;
-        background: #999;
-        text-align: center; }
+        background: black;
+        color: white;
+        text-align: center;
+        margin-right: 1px; }
         div.graph-container .graph-slider .graph-header .title h2 {
           font-size: 18px; }
     div.graph-container .graph-slider .graph-body .track .track-item {
@@ -329,8 +452,43 @@ div.graph-container {
       background: #ccc;
       height: 100px;
       vertical-align: middle;
-      border-left: 1px dashed #eee; }
+      position: relative;
+      text-decoration: none;
+      color: white;
+      transition: transform 0.5s;
+      z-index: 3; }
+      div.graph-container .graph-slider .graph-body .track .track-item:not(.break):hover {
+        transform: scale(1.02);
+        z-index: 3;
+        transition: transform 0.5s; }
       div.graph-container .graph-slider .graph-body .track .track-item.spacer {
         background: none; }
       div.graph-container .graph-slider .graph-body .track .track-item.break {
-        margin-right: -4px; }
+        margin-right: -5px;
+        position: relative;
+        z-index: 2; }
+        div.graph-container .graph-slider .graph-body .track .track-item.break h3 {
+          opacity: 0;
+          transition: opacity 0.5s; }
+      div.graph-container .graph-slider .graph-body .track .track-item h3 {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0px 0px 8px black; }
+      div.graph-container .graph-slider .graph-body .track .track-item.shown h3 {
+        transition: opacity 0.5s;
+        opacity: 1; }
+      div.graph-container .graph-slider .graph-body .track .track-item.rotated h3 {
+        transform: translate(-50%, -50%) rotate(-90deg) !important; }
+      div.graph-container .graph-slider .graph-body .track .track-item.vertical-center h3 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      div.graph-container .graph-slider .graph-body .track .track-item.vertical-topline h3 {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      div.graph-container .graph-slider .graph-body .track .track-item p {
+        display: none; }
